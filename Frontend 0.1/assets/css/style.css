@@ -1,0 +1,16 @@
+.work{
+    position:absolute; 
+    z-index:1; 
+    width:100%; 
+    height:100%;
+}
+
+@media screen and (max-width: 720px) {
+  .work {
+    object-fit: cover;
+    height: 100%; 
+  }
+}
+
+
+  
