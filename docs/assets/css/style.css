@@ -1,0 +1,24 @@
+body{
+    background-image: url(../../src/gif/da71bccc03313f65ba9005d96b373d69.gif);
+    background-position: center 25%; 
+    background-size: cover; 
+    border: none;
+}
+
+#contenedorPadre{
+width: 100%;
+height: 800px;
+position: relative;
+border: 0;
+background-color: transparent;
+}
+
+#contenedorHijo{
+width: 800px;
+height: 600px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: transparent;
+}
