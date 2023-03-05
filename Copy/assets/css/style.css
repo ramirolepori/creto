@@ -1,0 +1,134 @@
+:root{
+background-color: var(--background-color);
+border: none;
+--footer-color: #a4a4a7;
+--background-color: #F5F5F7;
+--transition-color: #818181;
+--font-color: #000000;
+font-family: Avenir, Helvetica, sans-serif;
+
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+}
+.container-logo{
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: 27px;
+}
+.container-nav{
+    justify-content: center;
+    margin-top: 38px;
+}
+.social{
+    justify-content: flex-end;
+    margin-top: 55px;
+    margin-right: 70px;
+}
+.logo{
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    color: var(--font-color);
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    transition: 0.5s color;
+  }
+  
+  nav a:hover {
+    color: var(--transition-color);
+  }
+.social-red{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.social-instagram{
+    transition: background-image 0.5s ;
+    width: 20px;
+}
+.social-facebook{
+    transition: background-image 0.5s ease-in-out;
+    width: 20px;
+}
+.social-twitter{
+    transition: background-image 0.5s ease-in-out;
+    width: 20px;
+}
+.conteiner-main{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 4%;
+}
+
+.row{
+    display: flex;
+    width: 400px;
+    height: 250px;
+    position: relative;
+
+}
+.conteiner-main img{
+    width: 90%;
+    position: absolute;
+}
+
+hr {
+    background-color: var(--footer-color);
+    width: 85%;
+}
+.text-footer {
+    color: var(--footer-color);
+    font-size: 90%;
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: 'Avenir-Black';
+    src: url(../../src/fonts/Avenir/Avenir\ Black.ttf) format('ttf');
+}
+@font-face {
+    font-family: 'Avenir-Book';
+    src: url(../../src/fonts/Avenir/Avenir\ Book.ttf) format('ttf');
+}
+@font-face {
+    font-family: 'Avenir-Heavy';
+    src: url(../../src/fonts/Avenir/Avenir\ Heavy.ttf) format('ttf');
+}
+@font-face {
+    font-family: 'Avenir-Light';
+    src: url(../../src/fonts/Avenir/Avenir\ Light.ttf) format('ttf');
+}
+@font-face {
+    font-family: 'Avenir-Regular';
+    src: url(../../src/fonts/Avenir/Avenir\ Regular.ttf) format('ttf');
+}
