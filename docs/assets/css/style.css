@@ -79,6 +79,26 @@ nav {
     transition: background-image 0.5s ease-in-out;
     width: 20px;
 }
+.conteiner-title{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 4%;
+}
+h1{
+    text-align: center;
+    font-size: 600%;
+}
+.container-header hr {
+    background-color: var(--footer-color);
+    width: 85%;
+}
+h2{
+    text-align: center;
+    font-size: 150%;
+}
+.container-header p{
+    text-align: center;
+}
 .conteiner-main{
     display: grid;
     grid-template-columns: 400px 400px 400px;
@@ -101,7 +121,7 @@ nav {
     position: absolute;
 }
 
-hr {
+footer hr {
     background-color: var(--footer-color);
     width: 85%;
 }
