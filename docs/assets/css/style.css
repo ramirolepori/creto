@@ -1,3 +1,8 @@
+ /* 
+ Cambiar todas las medidas a vw y vh (1vw es la centesima parte de la anchura del dispositivo)
+ */ 
+
+
 :root{
 background-color: var(--background-color);
 border: none;
@@ -8,7 +13,6 @@ border: none;
 font-family: Avenir, Helvetica, sans-serif;
 
 }
-
 .container-header{
     display: flex;
     justify-content: space-between;
@@ -86,7 +90,7 @@ nav {
 }
 h1{
     text-align: center;
-    font-size: 600%;
+    font-size: 620%;
 }
 .container-header hr {
     background-color: var(--footer-color);
