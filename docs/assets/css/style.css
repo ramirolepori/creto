@@ -1,8 +1,6 @@
  /* 
  Cambiar todas las medidas a vw y vh (1vw es la centesima parte de la anchura del dispositivo)
  */
-
-
  :root {
      background-color: var(--background-color);
      border: none;
@@ -11,12 +9,16 @@
      --transition-color: #818181;
      --font-color: #000000;
      font-family: Avenir, Helvetica, sans-serif;
+ }
 
+ body {
+     margin: 0;
  }
 
  .container-header {
      display: flex;
      justify-content: space-between;
+     margin-bottom: 5%;
  }
 
  .container-logo {
@@ -116,6 +118,10 @@ h2{
     text-align: center;
 }
 */
+ main {
+     margin: 0;
+ }
+
  .conteiner-main {
      display: grid;
      grid-template-columns: 25vw 25vw 25vw;
@@ -126,6 +132,17 @@ h2{
      margin-top: 7.25vh;
  }
 
+ @media (max-width: 768px) {
+
+     /* Estilos para pantallas menores o iguales a 768px */
+     .conteiner-main {
+         grid-template-columns: 70vw;
+         padding: 0;
+         border: 0;
+         margin: 0;
+     }
+ }
+
  .row {
      display: flex;
      width: 27.721vw;
@@ -134,14 +151,25 @@ h2{
 
  }
 
+ @media (max-width: 768px) {
+
+     /* Estilos para pantallas menores o iguales a 768px */
+     .row {
+         width: 100%;
+         margin: 0 21% 10% 21%;
+         max-height: max-content;
+     }
+ }
+
  .conteiner-main img {
-     width: 90%;
+     width: 100%;
      position: absolute;
  }
 
  footer hr {
      background-color: var(--footer-color);
      width: 85%;
+     margin-top: 10%;
  }
 
  .text-footer {
@@ -149,6 +177,16 @@ h2{
      font-size: 90%;
      text-align: center;
 
+ }
+
+ @media (max-width: 768px) {
+
+     /* Estilos para pantallas menores o iguales a 768px */
+     .text-footer {
+         color: var(--footer-color);
+         font-size: 70%;
+         text-align: center;
+     }
  }
 
  @font-face {
