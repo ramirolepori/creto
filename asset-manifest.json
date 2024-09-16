@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/creto/static/css/main.e6c13ad2.css",
+    "main.js": "/creto/static/js/main.4fc13fc3.js",
+    "static/js/453.dfe83c22.chunk.js": "/creto/static/js/453.dfe83c22.chunk.js",
+    "index.html": "/creto/index.html",
+    "main.e6c13ad2.css.map": "/creto/static/css/main.e6c13ad2.css.map",
+    "main.4fc13fc3.js.map": "/creto/static/js/main.4fc13fc3.js.map",
+    "453.dfe83c22.chunk.js.map": "/creto/static/js/453.dfe83c22.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.4fc13fc3.js"
+  ]
+}
